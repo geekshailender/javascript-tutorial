@@ -1,13 +1,13 @@
 function Employee(){
 
-    doWork(){
+    function doWork(){
         alert("Pls join meeting");
     }
 }
 
 function Manager(){
     onTime = true;
-    doWork(){
+    function doWork(){
         alert("Joining")
     }
 }
